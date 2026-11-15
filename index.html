@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal homepage of a Computer Engineering student at INHA University in Tashkent.">
+  <meta name="theme-color" content="#f5f8ff">
+  <title>Komronbek — Computer Engineering Student</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Go to homepage">
+        <span class="brand-mark">K</span>
+        <span>Komronbek<span class="brand-dot">.</span></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Toggle color theme">
+          <span class="theme-icon" aria-hidden="true">☾</span>
+          <span class="theme-label">Dark mode</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-pad">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> First-year student · Tashkent, Uzbekistan</p>
+          <h1>Learning today.<br><span class="gradient-text">Building tomorrow.</span></h1>
+          <p class="hero-text">Hi, I’m <strong>Komronbek</strong> — a Computer Engineering student at INHA University in Tashkent. I’m interested in programming, problem-solving, and understanding how technology works.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+            <a class="button button-ghost" href="#contact">Get in touch</a>
+          </div>
+          <div class="hero-meta">
+            <span><strong>01</strong> / Curious mind</span>
+            <span class="meta-line"></span>
+            <span>Computer Engineering</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Decorative abstract illustration representing technology">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="visual-card card-code">
+            <div class="code-top"><i></i><i></i><i></i><span>hello.cpp</span></div>
+            <div class="code-body">
+              <p><span class="code-muted">01</span> <span class="code-purple">#include</span> <span class="code-green">&lt;iostream&gt;</span></p>
+              <p><span class="code-muted">02</span> </p>
+              <p><span class="code-muted">03</span> <span class="code-purple">int</span> main() {</p>
+              <p><span class="code-muted">04</span> &nbsp;&nbsp;std::cout &lt;&lt; <span class="code-yellow">"Hello, world!"</span>;</p>
+              <p><span class="code-muted">05</span> &nbsp;&nbsp;<span class="code-purple">return</span> 0;</p>
+              <p><span class="code-muted">06</span> }</p>
+            </div>
+          </div>
+          <div class="floating-chip chip-top"><span class="chip-icon">⌘</span> Keep learning</div>
+          <div class="floating-chip chip-bottom"><span class="chip-pulse"></span> Open to opportunities</div>
+          <div class="visual-caption">A little progress every day adds up.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad about-section" id="about">
+      <div class="container two-col">
+        <div>
+          <p class="section-kicker">01 — About me</p>
+          <h2>Curiosity is where<br>everything <span class="gradient-text">starts.</span></h2>
+        </div>
+        <div class="about-content">
+          <p class="lead">I’m at the beginning of my journey in technology, building a strong foundation in computer science and software development.</p>
+          <p>At INHA University in Tashkent, I’m learning to turn concepts into practical skills — from understanding algorithms and writing C++ code to exploring computer networks. I enjoy breaking complex problems into smaller pieces and learning by doing.</p>
+          <div class="about-tags">
+            <span>Problem solving</span><span>C++</span><span>Computer networks</span><span>Always learning</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad courses-section" id="courses">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">02 — My courses</p>
+            <h2>What I’m <span class="gradient-text">learning.</span></h2>
+          </div>
+          <p class="section-intro">The subjects helping me build my foundations in engineering and computing.</p>
+        </div>
+        <div class="course-grid">
+          <article class="course-card">
+            <span class="course-number">01</span><div class="course-symbol">∑</div>
+            <h3>Calculus</h3><p>Functions, limits, derivatives, and the mathematics behind change.</p>
+            <span class="card-foot">Mathematics</span>
+          </article>
+          <article class="course-card">
+            <span class="course-number">02</span><div class="course-symbol">⚛</div>
+            <h3>Physics</h3><p>Exploring physical principles through theory, experiments, and measurement.</p>
+            <span class="card-foot">Science</span>
+          </article>
+          <article class="course-card">
+            <span class="course-number">03</span><div class="course-symbol">{ }</div>
+            <h3>Object-Oriented Programming</h3><p>Learning C++ and the ideas behind structured, reusable software.</p>
+            <span class="card-foot">Programming</span>
+          </article>
+          <article class="course-card">
+            <span class="course-number">04</span><div class="course-symbol">⌘</div>
+            <h3>Introduction to IT</h3><p>Understanding networks, operating systems, the web, and digital systems.</p>
+            <span class="card-foot">Computer science</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">03 — Projects</p>
+            <h2>Learning by <span class="gradient-text">doing.</span></h2>
+          </div>
+          <p class="section-intro">A few examples of what I’m exploring as I develop my technical skills.</p>
+        </div>
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-visual network-visual" aria-hidden="true">
+              <div class="network-node node-a">PC</div><div class="network-node node-b">DNS</div><div class="network-node node-c">WEB</div>
+              <span class="network-line line-a"></span><span class="network-line line-b"></span><span class="network-line line-c"></span>
+            </div>
+            <div class="project-copy">
+              <div class="project-topline"><span>NETWORKING LAB</span><span>01 / 02</span></div>
+              <h3>Network Detective</h3>
+              <p>A hands-on networking exercise exploring IP addressing, routing, DNS lookups, packet capture, and the difference between HTTP and HTTPS.</p>
+              <div class="project-tags"><span>Wireshark</span><span>DNS</span><span>Linux</span></div>
+            </div>
+          </article>
+          <article class="project-card project-card-reverse">
+            <div class="project-visual code-visual" aria-hidden="true">
+              <div class="terminal-window"><div class="terminal-bar"><i></i><i></i><i></i></div><p><span>$</span> g++ main.cpp -o app</p><p><span>$</span> ./app</p><p class="terminal-output">Hello, world!<b>_</b></p></div>
+            </div>
+            <div class="project-copy">
+              <div class="project-topline"><span>PROGRAMMING</span><span>02 / 02</span></div>
+              <h3>C++ Practice</h3>
+              <p>Building my programming fundamentals through university exercises and independent practice with C++.</p>
+              <div class="project-tags"><span>C++</span><span>Problem solving</span><span>Foundations</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad contact-section" id="contact">
+      <div class="container contact-panel">
+        <div>
+          <p class="section-kicker">04 — Contact</p>
+          <h2>Have a project<br>or an idea? <span class="gradient-text">Let’s talk.</span></h2>
+          <p class="contact-text">I’m always glad to connect with people who enjoy learning, building, and sharing ideas.</p>
+        </div>
+        <div class="contact-details">
+          <span class="contact-label">EMAIL</span>
+          <a class="email-link" href="mailto:naskol0409@gmail.com">naskol0409@gmail.com <span aria-hidden="true">↗</span></a>
+          <a class="back-top" href="#top">Back to top ↑</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="current-year">2026</span> Komronbek</span>
+      <span>Designed and built with curiosity in Tashkent.</span>
+    </div>
+  </footer>
+</body>
+</html>
